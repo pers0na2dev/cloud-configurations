@@ -62,7 +62,7 @@ POST /api/v1/save
 ```
 POST /api/v1/delete
 ```
-| Parameter  | Type     | Description                                                              |
-|:-----------|:---------|:-------------------------------------------------------------------------|
-| `username` | `string` | **Required**. Username                                                   |
-| `uid`      | `string` | **Required**. System configuration ID. You can get it from getAll method |
+| Parameter  | Type     | Description                            |
+|:-----------|:---------|:---------------------------------------|
+| `username` | `string` | **Required**. Username                 |
+| `uid`      | `string` | **Required**. System configuration ID. |
