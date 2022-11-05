@@ -19,7 +19,8 @@ You can see statistics on the use of resources by the microservice at `yourserve
 - [ ] Security
 - [ ] C++ API Client Example
  
-### 🔌 API Docs
+----
+## 🔌 API Docs
 #### Create config
 ```
 POST /api/v1/save
@@ -28,7 +29,7 @@ POST /api/v1/save
 |:-----------|:---------|:-------------------------------------------------------------------------|
 | `username` | `string` | **Required**. Username                                                   |
 | `data`     | `string` | **Required**. Any content you wanna save.                                |
-
+---
 #### Get all items
 ```
 POST /api/v1/getAll
